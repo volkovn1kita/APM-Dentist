@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>4.69428cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>4.63078cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>3.76294cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>4.75636cm</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>2.9445cm</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Patient</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Doctor</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Appointment Time</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox9</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Service Name</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox13">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Service Cost</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox13</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.6cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Patient">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Patient.Value</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Patient</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Doctor">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Doctor.Value</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Doctor</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="AppointmentTime">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!AppointmentTime.Value</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>AppointmentTime</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ServiceName">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ServiceName.Value</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ServiceName</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="ServiceCost">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!ServiceCost.Value</Value>
+                              <Style>
+                                <FontFamily>Cascadia Code</FontFamily>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Left</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>ServiceCost</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Подробности" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Height>1.2cm</Height>
+        <Width>20.78886cm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <FontFamily>Cascadia Code</FontFamily>
+          <TextAlign>Left</TextAlign>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>0.47244in</Height>
+    <Style />
+  </Body>
+  <Width>8.18459in</Width>
+  <Page>
+    <PageHeader>
+      <Height>3.13267cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Image Name="Image2">
+          <Source>Embedded</Source>
+          <Value>outputonlinepngtools</Value>
+          <Sizing>FitProportional</Sizing>
+          <Left>0.56303cm</Left>
+          <Height>1.5cm</Height>
+          <Width>1.5cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Dentist</Value>
+                  <Style>
+                    <FontFamily>Cascadia Code</FontFamily>
+                    <FontSize>18pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <Color>White</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.42333cm</Top>
+          <Left>2.44687cm</Left>
+          <Height>1.07667cm</Height>
+          <Width>3.0715cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox3">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Print Date:</Value>
+                  <Style>
+                    <FontFamily>Cascadia Code</FontFamily>
+                    <FontWeight>SemiBold</FontWeight>
+                    <Color>White</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox3</rd:DefaultName>
+          <Top>1.96258cm</Top>
+          <Left>0.56303cm</Left>
+          <Height>0.6cm</Height>
+          <Width>2.5cm</Width>
+          <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="ExecutionTime">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Globals!ExecutionTime</Value>
+                  <Style>
+                    <FontFamily>Cascadia Code</FontFamily>
+                    <Color>White</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>ExecutionTime</rd:DefaultName>
+          <Top>1.96258cm</Top>
+          <Left>3.4417cm</Left>
+          <Height>0.6cm</Height>
+          <Width>4.57899cm</Width>
+          <ZIndex>3</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+        <BackgroundColor>SlateBlue</BackgroundColor>
+      </Style>
+    </PageHeader>
+    <PageFooter>
+      <Height>2.54cm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Textbox Name="Textbox2">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>copyrighted by Nikita Volkov</Value>
+                  <Style>
+                    <FontFamily>Cascadia Code</FontFamily>
+                    <Color>White</Color>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox2</rd:DefaultName>
+          <Top>0.9875cm</Top>
+          <Left>14.45769cm</Left>
+          <Height>0.6cm</Height>
+          <Width>6.33117cm</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+        <BackgroundColor>SlateBlue</BackgroundColor>
+      </Style>
+    </PageFooter>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DentistDBDataSet1">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>5bdbf6d0-5a79-411f-9b2b-54fb4026bc02</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Query>
+        <DataSourceName>DentistDBDataSet1</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="Patient">
+          <DataField>Patient</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Doctor">
+          <DataField>Doctor</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AppointmentTime">
+          <DataField>AppointmentTime</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="ServiceName">
+          <DataField>ServiceName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ServiceCost">
+          <DataField>ServiceCost</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DentistDBDataSet1</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Nikita\source\repos\DataBase APM Dentist\DataBase APM Dentist\DentistDBDataSet1.xsd</rd:SchemaPath>
+        <rd:TableName>AppointmentDetails</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>AppointmentDetailsTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="outputonlinepngtools">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>318517fc-8d5e-4355-9808-c266d45cacd9</rd:ReportID>
+</Report>
